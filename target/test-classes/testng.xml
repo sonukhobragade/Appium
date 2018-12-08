@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FirstTestSuite" verbose="1" parallel="tests" thread-count="1">
+
+	<!--<listeners>
+		 <listener class-name="com.name.base.TestListner" /> 
+		<listener class-name="com.name.base.ExtentReporterNG" /> 
+	</listeners>-->
+
+	<test name="Login Tests">
+		<parameter name="device" value="Demo" />
+		<classes>
+			<class name="com.name.test.Test1" />
+		</classes>
+	</test>
+</suite>

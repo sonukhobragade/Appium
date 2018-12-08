@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="70819" started-at="2018-11-26T18:40:33Z" finished-at="2018-11-26T18:41:44Z">
+    <groups>
+    </groups>
+    <test name="Login Tests" duration-ms="70819" started-at="2018-11-26T18:40:33Z" finished-at="2018-11-26T18:41:44Z">
+      <class name="com.name.test.Test1">
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:com.name.test.Test1@58134517]" name="methodSetUp" is-config="true" duration-ms="50866" started-at="2018-11-26T18:40:33Z" finished-at="2018-11-26T18:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.name.test.Test1@58134517]" name="demoTest" duration-ms="16505" started-at="2018-11-26T18:41:24Z" finished-at="2018-11-26T18:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.name.test.Test1@58134517]" name="methodTearDown" is-config="true" duration-ms="3410" started-at="2018-11-26T18:41:41Z" finished-at="2018-11-26T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.name.test.Test1 -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>

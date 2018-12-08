@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [FirstTestSuite]" parallel="tests">
+  <test thread-count="1" name="Login Tests(failed)" parallel="tests">
+    <parameter name="device" value="Demo"/>
+    <classes>
+      <class name="com.name.test.Test1">
+        <methods>
+          <include name="demoTest"/>
+          <include name="methodSetUp"/>
+          <include name="methodTearDown"/>
+        </methods>
+      </class> <!-- com.name.test.Test1 -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->
